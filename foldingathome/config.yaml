@@ -3,7 +3,7 @@ name: Folding@home
 version: dev
 slug: foldingathome
 description: Fighting disease with a world wide distributed super computer
-url: https://github.com/hassio-addons/addon-foldingathome
+url: https://github.com/jbecker-it/ha-addon-foldingathome-rpi5
 codenotary: codenotary@frenck.dev
 webui: http://[HOST]:[PORT:7396]
 arch:

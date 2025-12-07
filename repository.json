@@ -1,0 +1,16 @@
+{
+  "name": "Folding@home for RPI 5",
+  "slug": "fondingathomerpi5",
+  "url": "https://github.com/yourusername/ha-addon-foldingathome-rpi5",
+  "maintainer": "Johannes Becker",
+  "addons": [
+    {
+      "name": "Folding@home",
+      "slug": "foldingathomerpi5",
+      "description": "Run Folding@home on your rpi5 Home Assistant instance",
+      "arch": ["aarch64"],
+      "url": "https://github.com/jbecker-it/ha-addon-foldingathome-rpi5",
+      "version": "0.1.0"
+    }
+  ]
+}
