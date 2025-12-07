@@ -15,6 +15,7 @@ RUN \
     && apt-get install -y --no-install-recommends \
         bzip2 \
         ocl-icd-libopencl1 \
+        adduser \
     \
     && addgroup --system render \
     && mkdir /etc/fahclient \
