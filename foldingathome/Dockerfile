@@ -16,6 +16,7 @@ RUN \
         bzip2 \
         ocl-icd-libopencl1 \
         adduser \
+        procps \
     \
     && addgroup --system render \
     && mkdir /etc/fahclient \
