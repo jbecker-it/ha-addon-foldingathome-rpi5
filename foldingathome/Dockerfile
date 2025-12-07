@@ -13,8 +13,8 @@ RUN \
     \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
-        bzip2=1.0.8-5+b1 \
-        ocl-icd-libopencl1=2.3.1-1 \
+        bzip2 \
+        ocl-icd-libopencl1 \
     \
     && addgroup --system render \
     && mkdir /etc/fahclient \
