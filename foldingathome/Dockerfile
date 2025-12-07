@@ -17,12 +17,13 @@ RUN \
         ocl-icd-libopencl1 \
         adduser \
         procps \
+        policykit-1 \
         libexpat1 \
     \
     && addgroup --system render \
     && mkdir /etc/fahclient \
     && touch /etc/fahclient/config.xml \
-    && dpkg --install --force-depends /tmp/fah.deb \
+    && dpkg --install /tmp/fah.deb \
     \
     && rm -fr \
         /etc/fahclient \
