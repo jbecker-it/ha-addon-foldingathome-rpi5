@@ -16,8 +16,8 @@ options+=(--command-allow-no-pass 0/0)
 options+=(--allow 0/0)
 options+=(--web-allow 0/0)
 options+=(--smp=true)
-options+=(--user "Anonymous")
-options+=(--team 247478)
+options+=(--user "jojo1789")
+options+=(--team 0)
 options+=(--power full)
 
 cd /data || bashio::exit.nok "Failed to change to working directory"

@@ -6,10 +6,10 @@ FROM ${BUILD_FROM}
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Setup base system
-ARG BUILD_ARCH=amd64
+ARG BUILD_ARCH=arm64
 RUN \
     curl -J -L -o /tmp/fah.deb \
-        "https://download.foldingathome.org/releases/public/fah-client/debian-10-64bit/release/fah-client_8.3.17_amd64.deb" \
+        "https://download.foldingathome.org/releases/public/fah-client/debian-stable-arm64/release/fah-client_8.4.9_arm64.deb" \
     \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
