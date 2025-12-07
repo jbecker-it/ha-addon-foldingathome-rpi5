@@ -22,7 +22,7 @@ RUN \
     && addgroup --system render \
     && mkdir /etc/fahclient \
     && touch /etc/fahclient/config.xml \
-    && dpkg --install /tmp/fah.deb \
+    && dpkg --install --force-depends /tmp/fah.deb \
     \
     && rm -fr \
         /etc/fahclient \
