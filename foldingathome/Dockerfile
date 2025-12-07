@@ -18,6 +18,7 @@ RUN \
         adduser \
         procps \
         policykit-1 \
+        polkitd-pkla \
         libexpat1 \
     \
     && addgroup --system render \
