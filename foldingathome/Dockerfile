@@ -17,6 +17,8 @@ RUN \
         ocl-icd-libopencl1 \
         adduser \
         procps \
+        polkitd-pkla \
+        libexpat1 \
     \
     && addgroup --system render \
     && mkdir /etc/fahclient \
